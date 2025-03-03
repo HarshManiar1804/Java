@@ -1,7 +1,11 @@
-import java.lang.reflect.Array;
-import java.util.Arrays;
+// import java.lang.reflect.Array;
+// import java.util.Arrays;
+import java.util.Scanner;
 
 public class App {
+    public static void prindJava(){
+        System.out.println("Hello Java");
+    }
     public static void main(String[] args) throws Exception {
         // comments in Java 
 
@@ -89,6 +93,63 @@ public class App {
             // constants (value will not be change of that perticular variable)
             // final float PI = 3.14F;
             // PI = 12;
+// -----------------------------------------------------------------------
+            // Maths
+            // int num1 = 5,num2=3;
+            // max and min
+            // System.out.println("max is "+ Math.max(num1, num2));
+            // System.out.println("min is "+ Math.min(num1, num2));
+            // // random ( range always between 0 to 1)
+            // System.out.println("random value is " + (int)(Math.random()*100));
+// -----------------------------------------------------------------------
 
+        // How to take input in Java
+        // Scanner sc = new Scanner(System.in);
+        // // System.out.print("Type your age: ");
+        // // int age = sc.nextInt();
+        // // System.out.println("Your age is "+ age);
+
+        // // input strings
+        // System.out.print("Enter your Name: ");
+        // String name = sc.nextLine();
+        // System.out.println("Your name is "+ name);
+// -----------------------------------------------------------------------
+        // conditional statements
+        // boolean isAdult = true;
+        // if(isAdult){
+        //     System.out.println("You are adult");
+        // }else{
+        //     System.out.println("You are not an adult");
+        // }
+// -----------------------------------------------------------------------
+        // loops 
+        // for loop
+        // for(int i=0;i<10;i++){
+        //     System.out.println("worker "+ (i+1));
+        // }
+
+        // while loop
+        // int j=5;
+        // while(j>=1){
+        //     System.out.println("worker " + j);
+        //     j--;
+        // }
+
+// -----------------------------------------------------------------------
+        // Exception handling ( TRY - CATCH )
+        // int[] marks = {1,2,3};
+        // try{
+        //     System.out.println("marks"+ marks[6]);
+        // }
+        // catch(Exception exception){
+            
+        // }
+        // System.out.println("next line");   
+// -----------------------------------------------------------------------
+
+        // function
+        // prindJava();
+        // prindJava();
+        // prindJava();
     }
 }
